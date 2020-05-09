@@ -209,7 +209,7 @@ export class Navbar extends Component<any, NavbarState> {
                     )}
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mt-1">
                   <Link
                     class="nav-link"
                     to={`/u/${UserService.Instance.user.username}`}
